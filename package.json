@@ -1,0 +1,28 @@
+{
+  "name": "my-draggable-quiz",
+  "version": "1.0.0",
+  "description": "Draggable task",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [
+    "draggable"
+  ],
+  "author": "Yiang Zhou",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/draggable": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
